@@ -1,0 +1,11 @@
+.title {
+    font-size: 45px;
+    line-height: normal;
+    color: chocolate;
+}
+
+.description {
+    color: blue;
+    font-size: 30px;
+    font-style: italic;
+}
