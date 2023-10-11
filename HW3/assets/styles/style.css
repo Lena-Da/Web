@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Gilroy', sans-serif;
+    src: url(./assets/fonts/gilroy-bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gilroy', sans-serif;
+    src: url(./assets/fonts/gilroy-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy', sans-serif;
+    src: url(./assets/fonts/gilroy-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy', sans-serif;
+    src: url(./assets/fonts/gilroy-semibold.ttf);
+    font-weight: 600;
+}
+
+html{
+    font-family: 'Gilroy', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1289px;
+    height: 114px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    width: 533px;
+    margin-left: 500px;
+}
+
+.header-item-home {
+    text-decoration: none;
+    color: #F25822;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header-item {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.intro {
+    display: flex;
+    gap: 40.94px;
+    width: 1274px;
+    height: 536px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-title {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 17px;
+    width: 522px;
+    height: 222px;
+}
+
+.intro-text {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 37px;
+    width: 466px;
+    height: 48px;
+}
+
+.intro-button-wrapper {
+    display: flex;
+    gap: 72px;
+    width: 374px;
+    height: 94px;
+}
+
+.intro-button-start {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+}
+
+.intro-button {
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 90px;
+    height: 19px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 243px;
+    gap: 48px;
+}
