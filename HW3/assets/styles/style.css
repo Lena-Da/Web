@@ -1,30 +1,30 @@
-@font-face {
-    font-family: 'Gilroy', sans-serif;
-    src: url(./assets/fonts/gilroy-bold.ttf);
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'Gilroy', sans-serif;
-    src: url(./assets/fonts/gilroy-medium.ttf);
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'Gilroy', sans-serif;
-    src: url(./assets/fonts/gilroy-regular.ttf);
+@font-face{
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
     font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Gilroy', sans-serif;
-    src: url(./assets/fonts/gilroy-semibold.ttf);
-    font-weight: 600;
-}
-
-html{
-    font-family: 'Gilroy', sans-serif;
-}
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
 
 body {
     margin: 0;
@@ -36,7 +36,7 @@ h1, p {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 1289px;
     height: 114px;
@@ -54,18 +54,18 @@ h1, p {
 .header-item-home {
     text-decoration: none;
     color: #F25822;
+    font-family: Gilroy-SemiBold;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
 }
 
 .header-item {
     color: #000;
+    font-family: Gilroy-Medium;
     text-decoration: none;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
     line-height: normal;
 }
 
@@ -77,14 +77,14 @@ h1, p {
     margin-right: auto;
     margin-left: auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .intro-title {
     color: #000;
+    font-family: Gilroy-Bold;
     font-size: 60px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
     margin-bottom: 17px;
     width: 522px;
@@ -93,9 +93,9 @@ h1, p {
 
 .intro-text {
     color: #888;
+    font-family: Gilroy-Medium;
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
     line-height: normal;
     margin-bottom: 37px;
     width: 466px;
@@ -107,38 +107,36 @@ h1, p {
     gap: 72px;
     width: 374px;
     height: 94px;
+    align-items: baseline;
 }
 
 .intro-button-start {
     color: #FFF;
+    font-family: Gilroy-Bold;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
     line-height: normal;
     width: 140px;
     height: 50px;
-    flex-shrink: 0;
     border-radius: 50px;
     background: #F25822;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
 
 }
 
 .intro-button {
     color: #AAA;
+    font-family: Gilroy-Bold;
     font-size: 15px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
-    width: 90px;
-    height: 19px;
 }
 
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1920px;
-    height: 243px;
+    width: 1240px;
     gap: 48px;
+    margin: 0 auto;
+    margin-top: 97px;
 }
