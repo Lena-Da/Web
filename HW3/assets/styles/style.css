@@ -138,5 +138,61 @@ h1, p {
     width: 1240px;
     gap: 48px;
     margin: 0 auto;
-    margin-top: 97px;
+    margin-top: 105px;
+}
+
+.about {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 105px;
+    width: 1240px;
+    height: 476px;
+    gap: 30px;
+    margin: auto;
+
+}
+
+.about_title {
+    margin: 0;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    line-height: normal;
+    padding-left: 40px;
+    gap: 17px;
+}
+
+.about_text {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 150%;
+    padding-left: 40px; 
+    gap: 25px;
+    width: 310px;
+    height: 42px;
+}
+
+
+.about_item {
+    display: grid;
+    width: 381px;
+    height: 291px;
+    border: 1px solid #000;
+}
+
+.about_link {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    line-height: 150%;
+    padding-left: 41px;
+    gap: 30px;
+}
+
+.about_img {
+    padding-top: 35px;
+    padding-left: 41px;
+    gap: 25px;
 }
