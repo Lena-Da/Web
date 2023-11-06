@@ -207,3 +207,67 @@ body {
     color: #FFFFFF;
     background: #F16D7F;
 }
+
+@media (max-width: 1024px) {
+    .header {
+        width: 768px;
+    }
+
+    .logo {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .intro {
+        gap: 39px;
+    }
+
+    .intro_img {
+        height: 386px;
+    }
+
+    .intro_title {
+        border-left: 12px solid #F16D7F;
+    }
+
+    .brand {
+        padding-left: 5px;
+        font-size: 44px;
+    }
+
+    .luxerious {
+        padding-left: 5px;
+        font-size: 24px;
+    }
+
+    .fashion {
+        color: #F16D7F;
+        font-size: 24px;  
+    }
+
+    .catalog {
+        max-width: 736px;
+    }
+
+    .catalog_card {
+        height: 231px;
+        gap: 20px;
+    }
+
+    .capsule {
+        margin-top: 110px;
+    }
+
+    .capsule_text {
+        margin-top: 3px;
+    }
+
+    .capsule_product {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+        margin: 72px 16px 33px;
+    }
+
+}
