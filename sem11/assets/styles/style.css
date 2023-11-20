@@ -282,3 +282,70 @@ body {
     }
 
 }
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header {
+        max-width: 100%;
+    }
+
+    .logo {
+        margin-left: 16px;
+        margin-right: 26px;
+    }
+
+    .intro {
+        height: 363px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .brand{
+        font-size: 38px;
+    }
+
+    .luxerious{
+        font-size: 20px;
+    }
+
+    .fashion{
+        font-size: 20px;
+    }
+
+    .intro_img {
+        display: none;
+    }
+
+    .catalog {
+        max-width: 100%;
+    }
+
+    .catalog_card {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .card_big{
+        grid-area: 4 / 1 / 5 / 2;
+        height: 111px;
+    }
+
+    .big_img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .capsule{
+        margin-top: 64px;
+    }
+
+    .capsule_product {
+        grid-template-columns: 1fr;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-bottom: 41px;
+    }
+
+}
