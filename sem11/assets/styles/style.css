@@ -85,6 +85,7 @@ body {
     top: 10px;
 }
 
+
 .menu_box {
     display: flex;
     position: absolute;
@@ -396,9 +397,10 @@ body {
 
 .about_contact{
     height: 448px;
-    background-image: url(./sem11/assets/img/contact/background.png);
+    background-image: url(../img/contact/background.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }   
 
 .about_contacts {
@@ -756,10 +758,15 @@ body {
         justify-content: center;
         align-items: center;
         gap: 59px;
+        background-image: url(../img/contact/background_mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .about_contacts{
         height: 550px;
+        background: none;
     }
 
     .about_contact_woman{
